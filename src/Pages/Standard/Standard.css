@@ -1,0 +1,44 @@
+.calculator {
+    width: 100%;
+    height: 100vh;
+    background-color: #e7dcdc;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons {
+    width: 100%;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) no-repeat;
+    /* border: 1px solid black; */
+}
+
+.row {
+    width: 100%;
+    height: 10vh;
+    /* border: 1px solid black; */
+}
+
+.buttons .row button {
+    height: 100%;
+    width: 25%;
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid black;
+}
+
+
+.buttons .row button.equal {
+    background: #eb5e28;
+}
+
+.buttons .row button.equal:hover {
+    background: #ef6b37;
+}
+
+.buttons .row button.minus {
+    background: #403d39;
+}

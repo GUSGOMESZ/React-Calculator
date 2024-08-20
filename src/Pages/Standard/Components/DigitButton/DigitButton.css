@@ -1,0 +1,7 @@
+.digit {
+    background: #403d39;
+}
+
+.digit:hover {
+    background: #252422;
+}
